@@ -83,7 +83,7 @@ class _InsertPageState extends State<InsertPage> {
                   Padding(
                     padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
                     child: SizedBox(
-                      width: width * 0.6,
+                      width: width * 0.57,
                       child: TextField(
                         controller: pwCont,
                         decoration: const InputDecoration(

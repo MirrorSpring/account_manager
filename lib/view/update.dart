@@ -60,7 +60,7 @@ class _UpdatePageState extends State<UpdatePage> {
             Padding(
               padding: const EdgeInsets.all(10),
               child: SizedBox(
-                width: width * 0.7,
+                width: width * 0.8,
                 child: TextField(
                   controller: nameCont,
                   decoration: const InputDecoration(
@@ -72,7 +72,7 @@ class _UpdatePageState extends State<UpdatePage> {
             Padding(
               padding: const EdgeInsets.all(10),
               child: SizedBox(
-                width: width * 0.7,
+                width: width * 0.8,
                 child: TextField(
                   controller: idCont,
                   decoration: const InputDecoration(
@@ -82,12 +82,12 @@ class _UpdatePageState extends State<UpdatePage> {
               ),
             ),
             SizedBox(
-              width: width*0.7,
+              width: width*0.8,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   SizedBox(
-                    width:width*0.58,
+                    width:width*0.65,
                     child: TextField(
                       controller: pwCont,
                       decoration: const InputDecoration(
@@ -121,7 +121,7 @@ class _UpdatePageState extends State<UpdatePage> {
             Padding(
               padding: const EdgeInsets.all(10),
               child: SizedBox(
-                width: width * 0.7,
+                width: width * 0.8,
                 child: TextField(
                   controller: urlCont,
                   decoration: const InputDecoration(
